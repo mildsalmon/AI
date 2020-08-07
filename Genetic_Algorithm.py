@@ -33,6 +33,8 @@ def print_p(pop):
     i = 0
     for x in pop:
         print("염색체 #", i, "=", x, "적합도=", x.cal_fitness())
+        print("염색체 # " + str(i) + " = " + str(x) + " 적합도= " + str(x.cal_fitness()))
+        print("염색체 # {0} = {1} 적합도= {2}".format(i, x, x.cal_fitness()))
         i += 1
     print("")
 
@@ -44,12 +46,14 @@ def select(pop):
     for c in pop:
         current += c.cal_fitness()
         if current > pick:
+            print(c.cal_fitness())
             return c
 
 def crossover(pop):
     father = select(pop)
     mother = select(pop)
     index = random.randint(1, SIZE - 2)
+    print("index={0}".format(index))
     child1 = father.genes[:index] + mother.genes[index:]
     child2 = mother.genes[:index] + father.genes[index:]
 
@@ -62,6 +66,7 @@ def mutate(c):
                 c.genes[i] = 1
             else:
                 c.genes[i] = 0
+            print("mutate run")
 
 population = []
 i = 0
