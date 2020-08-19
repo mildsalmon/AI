@@ -20,17 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83a46f4b-3df6-4970-8368-894bf58d3c72" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/gradient_descent_method.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/AI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Genetic_Algorithm.py" afterDir="false" />
+>>>>>>> 50494c8918ae7f46533845484f73ce33163be1c8
+>>>>>>> 4166c4cf443cacebd698078e4e3e8f3e11283124
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="AI" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,7 +64,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+<<<<<<< HEAD
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+>>>>>>> 50494c8918ae7f46533845484f73ce33163be1c8
+>>>>>>> 4166c4cf443cacebd698078e4e3e8f3e11283124
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -69,6 +82,10 @@
       </console-settings>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.Tic_Tac_Toe">
+    <configuration name="AStar_edit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -83,6 +100,7 @@
   </component>
   <component name="RunManager" selected="Python.gradient_descent_method">
     <configuration name="Genetic_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 50494c8918ae7f46533845484f73ce33163be1c8
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,15 +242,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="354" y="292" key="#Tic_Tac_Toe" timestamp="1596013952022">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="354" y="292" key="#Tic_Tac_Toe/0.0.2560.1400@0.0.2560.1400" timestamp="1596013952022" />
     <state x="428" y="455" key="FileChooserDialogImpl" timestamp="1595490536458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -269,10 +290,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1258" height="448" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595426232623" />
-    <state x="537" y="380" key="SettingsEditor" timestamp="1595417772510">
+    <state x="537" y="380" key="SettingsEditor" timestamp="1596013977213">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="537" y="380" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1595417772510" />
+    <state x="537" y="380" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1596013977213" />
     <state x="310" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1595641874809">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
