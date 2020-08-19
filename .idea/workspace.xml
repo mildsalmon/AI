@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83a46f4b-3df6-4970-8368-894bf58d3c72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Genetic_Algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradient_descent_method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -81,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Genetic_Algorithm">
+  <component name="RunManager" selected="Python.gradient_descent_method">
     <configuration name="Genetic_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,28 +147,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tic_Tac_Toe_comVSuser" type="PythonConfigurationType" factoryName="Python" temporary="true" show_console_on_std_out="true">
-      <output_file path="$PROJECT_DIR$" is_save="true" />
-      <module name="AI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\source\AI\Tic_Tac_Toe_com.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Tic_Tac_Toe_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,20 +168,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="gradient_descent_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradient_descent_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Tic_Tac_Toe" />
-      <item itemvalue="Python.Tic_Tac_Toe_comVSuser" />
       <item itemvalue="Python.Tic_Tac_Toe_com" />
       <item itemvalue="Python.Tic_Tac_Toe_user" />
       <item itemvalue="Python.Genetic_Algorithm" />
+      <item itemvalue="Python.gradient_descent_method" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gradient_descent_method" />
         <item itemvalue="Python.Genetic_Algorithm" />
         <item itemvalue="Python.Tic_Tac_Toe_user" />
         <item itemvalue="Python.Tic_Tac_Toe_com" />
         <item itemvalue="Python.Tic_Tac_Toe" />
-        <item itemvalue="Python.Tic_Tac_Toe_comVSuser" />
       </list>
     </recent_temporary>
   </component>
