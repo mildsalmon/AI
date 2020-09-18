@@ -1,5 +1,16 @@
 def init():
-    queen_count = 4
+    loop = True
+
+    while(loop):
+        try:
+            queen_count = input("체스판의 크기를 입력해주세요 : ")
+            queen_count = int(queen_count)
+        except Exception as e:
+            print("에러가 발생했습니다. 다시 입력해주세요")
+            print(e)
+            continue
+        loop = False
+    # queen_count = 4
     queen_list = make_list(queen_count)
     draw(queen_list)
 
@@ -7,7 +18,7 @@ def init():
 
 def make_list(queen_count):
 
-    queen_list = [0]*queen_count*queen_count
+    queen_list = ["-"]*queen_count*queen_count
 
     #
     # for i in range(queen_count):
@@ -28,7 +39,8 @@ def draw(queen_list):
         if (i % len_queen_count) != (len_queen_count - 1):
             print(" | ", end="")
         elif (i % len_queen_count) == (len_queen_count - 1):
-            print("\n--------------")
+            print("")
+            print("----"*len_queen_count)
 
     # for i, queens in enumerate(queen_list):
     #     len_queen_list = len(queen_list)
@@ -45,7 +57,7 @@ def draw(queen_list):
 
 def choice_queen(input_error):
     try:
-        i = input("\nQueen을 위치할 자리를 선택하세요 (0~(4*n-1)) : ")
+        i = input("\nQueen을 위치할 자리를 선택하세요 (0~(n*n-1)) : ")
         i = int(i)
 
         input_error = False
@@ -62,10 +74,12 @@ def play_game():
     input_error = True
     total_queen_count = queen_count*queen_count
     round_queen_game = queen_count
+    win_or_loss = False
 
     while(round_queen_game > 0):
-        if (dump_queen_list.count(0) == 0):
+        if (dump_queen_list.count("-") == 0):
             print("더 이상 Queen을 둘 자리가 없습니다. 게임에서 지셨습니다.")
+            win_or_loss == False
             break
 
         # Queen 자리 입력 받는 반복문 (올바른 숫자 값을 얻을 때까지)
@@ -80,7 +94,7 @@ def play_game():
 
         input_error = True
 
-        if dump_queen_list[loc_num] == 1:
+        if dump_queen_list[loc_num] == "👑":
             print("선택한 위치는 Queen 규칙에 따라 배치할 수 없는 위치입니다.")
             continue
 
@@ -90,7 +104,7 @@ def play_game():
 
         # 선택한 Queen 자리와 같은 행을 추출해서 1로 채움
         for i in range(row_start, row_end):
-            dump_queen_list[i] = 1
+            dump_queen_list[i] = "👑"
 
         # 선택한 Queen 자리와 같은 열을 추출해서 1로 채움
         col_start = loc_num % queen_count
@@ -147,24 +161,29 @@ def play_game():
 
 
         # 규칙에 따라 1을 채움
-        for i in range(4):
+        for i in range(queen_count):
             len_col_list = len(col_list)
             len_minus_gradient_list = len(minus_gradient_list)
             len_plus_gradient_list = len(plus_gradient_list)
 
             if i < len_col_list:
-                dump_queen_list[col_list[i]] = 1
+                dump_queen_list[col_list[i]] = "👑"
             if i < len_minus_gradient_list:
-                dump_queen_list[minus_gradient_list[i]] = 1
+                dump_queen_list[minus_gradient_list[i]] = "👑"
             if i < len_plus_gradient_list:
-                dump_queen_list[plus_gradient_list[i]] = 1
+                dump_queen_list[plus_gradient_list[i]] = "👑"
 
         # 사용자에게 출력될 Queen list
         round_queen_game = round_queen_game - 1
-        queen_list[loc_num] = 1
+        queen_list[loc_num] = "👑"
 
-        draw(dump_queen_list)
+        draw(queen_list)
+
+    if (dump_queen_list.count("-") == 0) and (round_queen_game == 0):
+        win_or_loss = True
+
+    if win_or_loss == True:
+        print("당신이 이겼습니다")
 
 if __name__ == "__main__":
-    # while(1):
     play_game()
