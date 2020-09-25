@@ -2,6 +2,7 @@ import numpy as np
 
 # 시그모이드 함수
 def actf(x):
+    print("x = ", x)
     return 1/(1+np.exp(-x))
 
 # 시그모이드 함수의 미분값
@@ -31,7 +32,7 @@ weight1 = 2*np.random.random((hiddens, outputs))-1
 # 반복한다
 for i in range(10000):
     # 순방향 계산
-
+    print("i = ", i)
     # 입력을 layer0에 대입한다
     layer0 = X
     # 행렬의 곱을 계산한다
@@ -40,11 +41,12 @@ for i in range(10000):
     layer1 = actf(net1)
     # 마지막 열은 바이어스를 나타낸다
     layer1[:,-1] = 1.0
+    print("layer1 : ", layer1)
+    print("weight1 : ", weight1)
     # 행렬의 곱을 계산한다
     net2 = np.dot(layer1, weight1)
     # 활성화 함수를 적용한다
     layer2 = actf(net2)
-
     # 출력층에서 오차를 계산한다
     layer2_error = layer2-y
 
