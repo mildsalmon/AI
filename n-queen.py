@@ -177,6 +177,7 @@ def play_game():
         round_queen_game = round_queen_game - 1
         queen_list[loc_num] = "👑"
 
+        # draw(dump_queen_list)
         draw(queen_list)
 
     if (dump_queen_list.count("-") == 0) and (round_queen_game == 0):
