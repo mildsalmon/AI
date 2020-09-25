@@ -32,13 +32,13 @@ def update_second_layer_weight(targetY, y, prevY, update_weight):
     return update_weight - learning_rate * fun
 
 # 첫 번째 layer의 weight들의 업데이트
-def update_first_layer_weight(t1, t2, y1, y2, w1, w2, a, update_weight):
+def update_first_layer_weight(t1, t2, y1, y2, w1, w2, a, update_weight, input_x):
     e1 = -(t1 - y1) * y1 * (1 - y1) * w1
     e2 = -(t2 - y2) * y2 * (1 - y2) * w2
     v1 = a * (1 - a)
-    v2 = a
+    v2 = input_x
     fun = (e1 + e2) * v1 * v2
-
+    # print("{0} + {1}) * {2} * {3}".format(e1, e2, v1, v2))
     return update_weight - learning_rate * fun
 
 # def run():
@@ -96,13 +96,13 @@ if __name__ == "__main__":
 
         # Back propagation
         newW0 = np.array([[update_first_layer_weight(t1=targets[:1], t2=targets[1:2], y1=a20, y2=a21,
-                                                     w1=w1[:1, :1], w2=w1[:1, 1:2], a=a10, update_weight=w0[:1, :1]),
+                                                     w1=w1[:1, :1], w2=w1[:1, 1:2], a=a10, update_weight=w0[:1, :1], input_x=X[:1]),
                            update_first_layer_weight(t1=targets[:1], t2=targets[1:2], y1=a20, y2=a21,
-                                                     w1=w1[1:2, :1], w2=w1[1:2, 1:2], a=a11, update_weight=w0[:1, 1:2])],
+                                                     w1=w1[1:2, :1], w2=w1[1:2, 1:2], a=a11, update_weight=w0[:1, 1:2], input_x=X[:1])],
                           [update_first_layer_weight(t1=targets[:1], t2=targets[1:2], y1=a20, y2=a21,
-                                                     w1=w1[:1, :1], w2=w1[:1, 1:2], a=a10, update_weight=w0[1:2, :1]),
+                                                     w1=w1[:1, :1], w2=w1[:1, 1:2], a=a10, update_weight=w0[1:2, :1], input_x=X[1:2]),
                            update_first_layer_weight(t1=targets[:1], t2=targets[1:2], y1=a20, y2=a21,
-                                                     w1=w1[1:2, :1], w2=w1[1:2, 1:2], a=a11, update_weight=w0[1:2, 1:2])]
+                                                     w1=w1[1:2, :1], w2=w1[1:2, 1:2], a=a11, update_weight=w0[1:2, 1:2], input_x=X[1:2])]
                           ])
 
         newW1 = np.array([[update_second_layer_weight(targetY=targets[:1], y=a20, prevY=a10, update_weight=w1[:1, :1]),
@@ -118,5 +118,7 @@ if __name__ == "__main__":
         for j, v in enumerate(newW1):
             for ii, vv in enumerate(v):
                 w1[j][ii] = vv
+
+        # print(w0[:1, :1])
 
     print("t1 = {0}, t2 = {1}".format(targets[:1], targets[1:2]))
