@@ -47,7 +47,7 @@ print("model:", model)
 batch_size = 100
 total_batch = int(mnist.train.num_examples / batch_size)
 
-for epoch in range(15):
+for epoch in range(50):
     total_cost = 0
 
     for i in range(total_batch):
