@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83a46f4b-3df6-4970-8368-894bf58d3c72" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/gradient_descent_method.py" afterDir="false" />
-=======
-<<<<<<< HEAD
+    <list default="true" id="3eac0a04-bb86-48d3-ac2f-11da56aa1f90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensor_ex/3min_tf.layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/device_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/Genetic_Algorithm.py" afterDir="false" />
->>>>>>> 50494c8918ae7f46533845484f73ce33163be1c8
->>>>>>> 4166c4cf443cacebd698078e4e3e8f3e11283124
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensor_ex/3min_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor_ex/3min_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,72 +40,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectId" id="1evcHNdskbQWtIDo3oie94QiTra" />
+  <component name="ProjectId" id="1iw2dSt1nqkCVL3kehpoIdTqbsB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
+    <property name="last_opened_file_path" value="C:/python/anaconda3_64/envs/crawling" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-=======
-<<<<<<< HEAD
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-=======
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
->>>>>>> 50494c8918ae7f46533845484f73ce33163be1c8
->>>>>>> 4166c4cf443cacebd698078e4e3e8f3e11283124
   </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="AI" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="AI" />
-      </console-settings>
-    </option>
-  </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Python.Tic_Tac_Toe">
-    <configuration name="AStar_edit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-=======
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.gradient_descent_method">
-    <configuration name="Genetic_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
->>>>>>> 50494c8918ae7f46533845484f73ce33163be1c8
-      <module name="AI" />
+  <component name="RunManager" selected="Python.3min_tf.layer">
+    <configuration name="01 - CNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex/TensorFlow-Tutorials-master/07 - CNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Genetic_Algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/TensorFlow-Tutorials-master/07 - CNN/01 - CNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,21 +72,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tic_Tac_Toe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true" show_console_on_std_out="true">
-      <output_file path="$PROJECT_DIR$" is_save="true" />
-      <log_file alias="1" path="$PROJECT_DIR$" />
-      <module name="AI" />
+    <configuration name="3min_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tic_Tac_Toe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/3min_cnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,19 +93,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tic_Tac_Toe_com" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AI" />
+    <configuration name="3min_tf.layer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tic_Tac_Toe_com.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/3min_tf.layer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,19 +114,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Tic_Tac_Toe_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AI" />
+    <configuration name="device_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tic_Tac_Toe_user.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/device_info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,19 +135,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gradient_descent_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AI" />
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradient_descent_method.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,33 +156,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.Tic_Tac_Toe" />
-      <item itemvalue="Python.Tic_Tac_Toe_com" />
-      <item itemvalue="Python.Tic_Tac_Toe_user" />
-      <item itemvalue="Python.Genetic_Algorithm" />
-      <item itemvalue="Python.gradient_descent_method" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gradient_descent_method" />
-        <item itemvalue="Python.Genetic_Algorithm" />
-        <item itemvalue="Python.Tic_Tac_Toe_user" />
-        <item itemvalue="Python.Tic_Tac_Toe_com" />
-        <item itemvalue="Python.Tic_Tac_Toe" />
+        <item itemvalue="Python.3min_tf.layer" />
+        <item itemvalue="Python.3min_cnn" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.01 - CNN" />
+        <item itemvalue="Python.device_info" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\su\AppData\Roaming\Subversion</configuration>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="83a46f4b-3df6-4970-8368-894bf58d3c72" name="Default Changelist" comment="" />
-      <created>1595205418489</created>
+      <changelist id="3eac0a04-bb86-48d3-ac2f-11da56aa1f90" name="Default Changelist" comment="" />
+      <created>1602804421216</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1595205418489</updated>
+      <updated>1602804421216</updated>
     </task>
     <servers />
   </component>
@@ -250,104 +190,49 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="354" y="292" key="#Tic_Tac_Toe" timestamp="1596013952022">
+    <state x="1121" y="566" width="498" height="369" key="FileChooserDialogImpl" timestamp="1604063357442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="354" y="292" key="#Tic_Tac_Toe/0.0.2560.1400@0.0.2560.1400" timestamp="1596013952022" />
-    <state x="428" y="455" key="FileChooserDialogImpl" timestamp="1595490536458">
+    <state x="-607" y="782" width="440" height="505" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603936584609" />
+    <state x="1121" y="566" width="498" height="369" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063357442" />
+    <state x="1084" y="515" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1602859111311" />
+    <state x="892" y="634" key="Github.ShareDialog" timestamp="1602859125472">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="428" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1595490536458" />
-    <state width="1258" height="397" key="GridCell.Tab.0.bottom" timestamp="1595643287553">
+    <state x="892" y="634" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602859125472" />
+    <state width="1257" height="510" key="GridCell.Tab.0.bottom" timestamp="1604063362877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595643287553" />
-    <state width="1258" height="397" key="GridCell.Tab.0.center" timestamp="1595643287553">
+    <state width="1059" height="725" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
+    <state width="1257" height="510" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063362877" />
+    <state width="1257" height="510" key="GridCell.Tab.0.center" timestamp="1604063362877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="397" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595643287553" />
-    <state width="1258" height="397" key="GridCell.Tab.0.left" timestamp="1595643287553">
+    <state width="1059" height="725" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
+    <state width="1257" height="510" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063362877" />
+    <state width="1257" height="510" key="GridCell.Tab.0.left" timestamp="1604063362877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="397" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595643287553" />
-    <state width="1258" height="397" key="GridCell.Tab.0.right" timestamp="1595643287553">
+    <state width="1059" height="725" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
+    <state width="1257" height="510" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063362877" />
+    <state width="1257" height="510" key="GridCell.Tab.0.right" timestamp="1604063362877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="397" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595643287553" />
-    <state width="1258" height="448" key="GridCell.Tab.1.bottom" timestamp="1595426232623">
+    <state width="1059" height="725" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
+    <state width="1257" height="510" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063362877" />
+    <state x="414" y="370" width="914" height="707" key="SettingsEditor" timestamp="1604063333290">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="448" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595426232623" />
-    <state width="1258" height="448" key="GridCell.Tab.1.center" timestamp="1595426232623">
+    <state x="-1023" y="500" width="998" height="915" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603941228565" />
+    <state x="414" y="370" width="914" height="707" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063333290" />
+    <state x="782" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1602858743736" />
+    <state x="414" y="336" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602858933974">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="448" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595426232623" />
-    <state width="1258" height="448" key="GridCell.Tab.1.left" timestamp="1595426232623">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="414" y="336" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602858933974" />
+    <state x="-877" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1603802320035">
+      <screen x="-1080" y="6" width="1080" height="1920" />
     </state>
-    <state width="1258" height="448" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595426232623" />
-    <state width="1258" height="448" key="GridCell.Tab.1.right" timestamp="1595426232623">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1258" height="448" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595426232623" />
-    <state x="537" y="380" key="SettingsEditor" timestamp="1596013977213">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="537" y="380" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1596013977213" />
-    <state x="310" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1595641874809">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="310" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1595641874809" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BFS.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BFS.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/DFS.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/DFS.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AStar.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AStar.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tic_Tac_Toe.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tic_Tac_Toe.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tic_Tac_Toe.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="-877" y="451" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603802320035" />
   </component>
 </project>
