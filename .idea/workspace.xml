@@ -14,16 +14,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eac0a04-bb86-48d3-ac2f-11da56aa1f90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensor_ex/3min_tf.layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/device_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AI_DESKTOP-B4B9C22_10-16-233756-2020_CaseConflict.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings_DESKTOP-B4B9C22_10-16-233756-2020_Conflict.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc_DESKTOP-B4B9C22_10-16-233756-2020_Conflict.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules_DESKTOP-B4B9C22_10-16-233756-2020_Conflict.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace_DESKTOP-B4B9C22_10-16-233756-2020_Conflict.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/logs/events.out.tfevents.1601219372.DESKTOP-B4B9C22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/logs/events.out.tfevents.1601220824.DESKTOP-B4B9C22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/logs/events.out.tfevents.1601250219.DESKTOP-B4B9C22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/mnist/data/t10k-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/mnist/data/t10k-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/mnist/data/train-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/mnist/data/train-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-100.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-100.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-100.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-300.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-300.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-300.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-400.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensor_ex/3min_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor_ex/3min_cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Genetic_Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Genetic_Algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensor_ex/3min_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor_ex/3min_rnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensor_ex/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor_ex/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +62,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -47,23 +75,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="C:/python/anaconda3_64/envs/crawling" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.3min_tf.layer">
-    <configuration name="01 - CNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Ai" />
+  <component name="RunManager" selected="Python.Genetic_Algorithm">
+    <configuration name="01 - MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex/TensorFlow-Tutorials-master/07 - CNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex/TensorFlow-Tutorials-master/10 - RNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/TensorFlow-Tutorials-master/07 - CNN/01 - CNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/TensorFlow-Tutorials-master/10 - RNN/01 - MNIST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,8 +100,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3min_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Ai" />
+    <configuration name="3min_rnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -84,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/3min_cnn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/3min_rnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +122,7 @@
       <method v="2" />
     </configuration>
     <configuration name="3min_tf.layer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Ai" />
+      <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -114,19 +142,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="device_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Ai" />
+    <configuration name="Genetic_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/device_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Genetic_Algorithm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,8 +163,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Ai" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -147,7 +175,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Genetic_Algorithm" />
+        <item itemvalue="Python.3min_rnn" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.01 - MNIST" />
         <item itemvalue="Python.3min_tf.layer" />
-        <item itemvalue="Python.3min_cnn" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.01 - CNN" />
-        <item itemvalue="Python.device_info" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +203,28 @@
       <option name="presentableId" value="Default" />
       <updated>1602804421216</updated>
     </task>
+    <task id="LOCAL-00001" summary="20.11.01-1_study">
+      <created>1604228221248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604228221248</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20.11.04-1">
+      <created>1604492863162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604492863162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20.11.04-2_change path">
+      <created>1604492953550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604492953550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,50 +239,117 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20.11.01-1_study" />
+    <MESSAGE value="20.11.04-1" />
+    <MESSAGE value="20.11.04-2_change path" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.11.04-2_change path" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1121" y="566" width="498" height="369" key="FileChooserDialogImpl" timestamp="1604063357442">
+    <state x="1333" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604492894374">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1333" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1604492894374" />
+    <state width="862" height="466" key="DebuggerActiveHint" timestamp="1604497360774">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="862" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1604497360774" />
+    <state x="1121" y="191" width="498" height="1093" key="FileChooserDialogImpl" timestamp="1604230908319">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-607" y="782" width="440" height="505" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603936584609" />
-    <state x="1121" y="566" width="498" height="369" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063357442" />
+    <state x="1121" y="191" width="498" height="1093" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604230908319" />
     <state x="1084" y="515" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1602859111311" />
     <state x="892" y="634" key="Github.ShareDialog" timestamp="1602859125472">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="892" y="634" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602859125472" />
-    <state width="1257" height="510" key="GridCell.Tab.0.bottom" timestamp="1604063362877">
+    <state width="2539" height="506" key="GridCell.Tab.0.bottom" timestamp="1604919926954">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="1257" height="510" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063362877" />
-    <state width="1257" height="510" key="GridCell.Tab.0.center" timestamp="1604063362877">
+    <state width="2539" height="507" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604412438970" />
+    <state width="2539" height="506" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604919926954" />
+    <state width="2539" height="506" key="GridCell.Tab.0.center" timestamp="1604919926954">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="1257" height="510" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063362877" />
-    <state width="1257" height="510" key="GridCell.Tab.0.left" timestamp="1604063362877">
+    <state width="2539" height="507" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604412438970" />
+    <state width="2539" height="506" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604919926954" />
+    <state width="2539" height="506" key="GridCell.Tab.0.left" timestamp="1604919926954">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="1257" height="510" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063362877" />
-    <state width="1257" height="510" key="GridCell.Tab.0.right" timestamp="1604063362877">
+    <state width="2539" height="507" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604412438970" />
+    <state width="2539" height="506" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604919926954" />
+    <state width="2539" height="506" key="GridCell.Tab.0.right" timestamp="1604919926954">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="1257" height="510" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063362877" />
-    <state x="414" y="370" width="914" height="707" key="SettingsEditor" timestamp="1604063333290">
+    <state width="2539" height="507" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604412438970" />
+    <state width="2539" height="506" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604919926954" />
+    <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1604919756961">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604919756961" />
+    <state width="2539" height="492" key="GridCell.Tab.1.center" timestamp="1604919756961">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604919756961" />
+    <state width="2539" height="492" key="GridCell.Tab.1.left" timestamp="1604919756961">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604919756961" />
+    <state width="2539" height="492" key="GridCell.Tab.1.right" timestamp="1604919756961">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604919756961" />
+    <state x="782" y="345" width="914" height="707" key="SettingsEditor" timestamp="1604496996173">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1023" y="500" width="998" height="915" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603941228565" />
-    <state x="414" y="370" width="914" height="707" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604063333290" />
-    <state x="782" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1602858743736" />
+    <state x="414" y="370" width="914" height="707" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604411242916" />
+    <state x="782" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604496996173" />
+    <state x="1178" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604492881474">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1178" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604492881474" />
     <state x="414" y="336" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602858933974">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="414" y="336" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602858933974" />
+    <state x="1399" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604492873009">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1399" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604492873009" />
+    <state x="1057" y="63" width="2282" height="852" key="dock-window-1" timestamp="1604413384094">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1057" y="63" width="2282" height="852" key="dock-window-1/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604413384094" />
     <state x="-877" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1603802320035">
       <screen x="-1080" y="6" width="1080" height="1920" />
     </state>
     <state x="-877" y="451" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603802320035" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensor_ex/3min_rnn.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensor_ex/3min_rnn.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Genetic_Algorithm.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

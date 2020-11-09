@@ -22,8 +22,9 @@ class Chromosome:
         value = 0
         for i in range(SIZE):
             value += self.genes[i]*pow(2, SIZE-1-i)
-        self.fitness = value
-
+        # self.fitness = pow(value, 2)
+        self.fitness = (6*value - pow(value, 2))
+        # print("fit : ", self.fitness)
         return self.fitness
 
     def __str__(self):
@@ -32,8 +33,8 @@ class Chromosome:
 def print_p(pop):
     i = 0
     for x in pop:
-        print("염색체 #", i, "=", x, "적합도=", x.cal_fitness())
-        print("염색체 # " + str(i) + " = " + str(x) + " 적합도= " + str(x.cal_fitness()))
+        # print("염색체 #", i, "=", x, "적합도=", x.cal_fitness())
+        # print("염색체 # " + str(i) + " = " + str(x) + " 적합도= " + str(x.cal_fitness()))
         print("염색체 # {0} = {1} 적합도= {2}".format(i, x, x.cal_fitness()))
         i += 1
     print("")
@@ -46,7 +47,7 @@ def select(pop):
     for c in pop:
         current += c.cal_fitness()
         if current > pick:
-            print(c.cal_fitness())
+            print("fit :", c.cal_fitness())
             return c
 
 def crossover(pop):
@@ -54,10 +55,12 @@ def crossover(pop):
     mother = select(pop)
     index = random.randint(1, SIZE - 2)
     print("index={0}".format(index))
+
     child1 = father.genes[:index] + mother.genes[index:]
     child2 = mother.genes[:index] + father.genes[index:]
-
     return (child1, child2)
+
+
 
 def mutate(c):
     for i in range(SIZE):
@@ -81,7 +84,7 @@ print("세대 번호=", count)
 print_p(population)
 count = 1
 
-while population[0].cal_fitness() < 31:
+while population[0].cal_fitness() < 9:
     new_pop = []
 
     for _ in range(POPULATION_SIZE//2):

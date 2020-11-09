@@ -1,62 +1,78 @@
+
+
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
-mnist = input_data.read_data_sets("./mnist/data/", one_hot=True)
+with tf.device('/device:CPU:0'):
 
-learning_rate = 0.001
-total_epoch = 30
-batch_size = 128
+    mnist = input_data.read_data_sets("./mnist/data/", one_hot=True)
 
-n_input = 28
-n_step = 28
-n_hidden = 128
-n_class = 10
+    learning_rate = 0.001
+    total_epoch = 30
+    batch_size = 128
 
-X = tf.placeholder(tf.float32, [None, n_step, n_input])
-Y = tf.placeholder(tf.float32, [None, n_class])
+    n_input = 28
+    n_step = 28
+    n_hidden = 128
+    n_class = 10
 
-W = tf.Variable(tf.random_normal([n_hidden, n_class]))
-b = tf.Variable(tf.random_normal([n_class]))
+    X = tf.placeholder(tf.float32, [None, n_step, n_input])
+    Y = tf.placeholder(tf.float32, [None, n_class])
 
-cell = tf.nn.rnn_cell.BasicRNNCell(n_hidden)
+    W = tf.Variable(tf.random_normal([n_hidden, n_class]))
+    b = tf.Variable(tf.random_normal([n_class]))
 
-outputs, states = tf.nn.dynamic_rnn(cell, X, dtype=tf.float32)
+    cell = tf.nn.rnn_cell.BasicRNNCell(n_hidden)
 
-outputs = tf.transpose(outputs, [1, 0, 2])
-outputs = outputs[-1]
+    outputs, states = tf.nn.dynamic_rnn(cell, X, dtype=tf.float32)
 
-model = tf.matmul(outputs, W) + b
+    # sess1 = tf.Session()
+    # value = sess1.run(outputs)
+    # print("out 0", value)
 
-cost = tf.reduce_mean(tf. nn.softmax_cross_entropy_with_logits(logits=model, labels=Y))
-optimizer = tf.train.AdamOptimizer(learning_rate).minimize(cost)
+    outputs = tf.transpose(outputs, [1, 0, 2])
 
-sess = tf.Session()
-sess.run(tf.global_variables_initializer())
+    # value = sess1.run(outputs)
+    # print("out 1",value)
 
-total_batch = int(mnist.train.num_examples / batch_size)
+    outputs = outputs[-1]
 
-for epoch in range(total_epoch):
-    total_cost = 0
+    # value = sess1.run(outputs)
+    # print("out 2", value)
 
-    for i in range(total_batch):
-        batch_xs, batch_ys = mnist.train.next_batch(batch_size)
-        batch_xs = batch_xs.reshape((batch_size, n_step, n_input))
 
-        _, cost_val = sess.run([optimizer, cost], feed_dict={X: batch_xs,
-                                                             Y: batch_ys})
-        total_cost += cost_val
+    model = tf.matmul(outputs, W) + b
 
-    print("Epoch:", "%04d" % (epoch + 1),
-          "Avg. Cost = ", "{:3f}".format(total_cost / total_batch))
+    cost = tf.reduce_mean(tf. nn.softmax_cross_entropy_with_logits(logits=model, labels=Y))
+    optimizer = tf.train.AdamOptimizer(learning_rate).minimize(cost)
 
-print("최적화 완료")
+    sess = tf.Session()
+    sess.run(tf.global_variables_initializer())
 
-is_correct = tf.equal(tf.argmax(model, 1), tf.argmax(Y, 1))
-accuracy = tf.reduce_mean(tf.cast(is_correct, tf.float32))
+    total_batch = int(mnist.train.num_examples / batch_size)
 
-test_batch_size = len(mnist.test.images)
-test_xs = mnist.test.images.reshape(test_batch_size, n_step, n_input)
-test_ys = mnist.test.labels
+    for epoch in range(total_epoch):
+        total_cost = 0
 
-print("정확도:", sess.run(accuracy, feed_dict={X: test_xs,
-                                            Y: test_ys}))
+        for i in range(total_batch):
+            batch_xs, batch_ys = mnist.train.next_batch(batch_size)
+            batch_xs = batch_xs.reshape((batch_size, n_step, n_input))
+
+            _, cost_val = sess.run([optimizer, cost], feed_dict={X: batch_xs,
+                                                                 Y: batch_ys})
+            total_cost += cost_val
+
+        print("Epoch:", "%04d" % (epoch + 1),
+              "Avg. Cost = ", "{:3f}".format(total_cost / total_batch))
+
+    print("최적화 완료")
+
+    is_correct = tf.equal(tf.argmax(model, 1), tf.argmax(Y, 1))
+    accuracy = tf.reduce_mean(tf.cast(is_correct, tf.float32))
+
+    test_batch_size = len(mnist.test.images)
+    test_xs = mnist.test.images.reshape(test_batch_size, n_step, n_input)
+    test_ys = mnist.test.labels
+
+    print("정확도:", sess.run(accuracy, feed_dict={X: test_xs,
+                                                Y: test_ys}))
