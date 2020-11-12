@@ -14,41 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eac0a04-bb86-48d3-ac2f-11da56aa1f90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AI_DESKTOP-B4B9C22_10-16-233756-2020_CaseConflict.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings_DESKTOP-B4B9C22_10-16-233756-2020_Conflict.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc_DESKTOP-B4B9C22_10-16-233756-2020_Conflict.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules_DESKTOP-B4B9C22_10-16-233756-2020_Conflict.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace_DESKTOP-B4B9C22_10-16-233756-2020_Conflict.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/logs/events.out.tfevents.1601219372.DESKTOP-B4B9C22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/logs/events.out.tfevents.1601220824.DESKTOP-B4B9C22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/logs/events.out.tfevents.1601250219.DESKTOP-B4B9C22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/mnist/data/t10k-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/mnist/data/t10k-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/mnist/data/train-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/mnist/data/train-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-100.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-100.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-100.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-200.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-200.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-200.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-300.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-300.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-300.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-400.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-400.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_ex/model/dnn.ckpt-400.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Genetic_Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Genetic_Algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RNN.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensor_ex/3min_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor_ex/3min_rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensor_ex/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor_ex/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +47,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Genetic_Algorithm">
-    <configuration name="01 - MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.my_first_deeplearning">
+    <configuration name="01_Least_Square_Method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex/TensorFlow-Tutorials-master/10 - RNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/080228-master/deeplearning/deeplearning_class/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/TensorFlow-Tutorials-master/10 - RNN/01 - MNIST.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/080228-master/deeplearning/deeplearning_class/py/01_Least_Square_Method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3min_rnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_Logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/080228-master/deeplearning/deeplearning_class/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/3min_rnn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/080228-master/deeplearning/deeplearning_class/py/05_Logistic_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3min_tf.layer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14_MNIST_Data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/080228-master/deeplearning/run_project/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/3min_tf.layer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/080228-master/deeplearning/run_project/py/14_MNIST_Data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Genetic_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16_MNIST_Deep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/080228-master/deeplearning/run_project/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Genetic_Algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/080228-master/deeplearning/run_project/py/16_MNIST_Deep.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="my_first_deeplearning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_ex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_ex/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/my_first_deeplearning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Genetic_Algorithm" />
-        <item itemvalue="Python.3min_rnn" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.01 - MNIST" />
-        <item itemvalue="Python.3min_tf.layer" />
+        <item itemvalue="Python.my_first_deeplearning" />
+        <item itemvalue="Python.16_MNIST_Deep" />
+        <item itemvalue="Python.14_MNIST_Data" />
+        <item itemvalue="Python.05_Logistic_regression" />
+        <item itemvalue="Python.01_Least_Square_Method" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604492953550</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20.11.09-1_EDIT Genetic_Algorithm.py">
+      <created>1604919976747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604919976747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +219,8 @@
     <MESSAGE value="20.11.01-1_study" />
     <MESSAGE value="20.11.04-1" />
     <MESSAGE value="20.11.04-2_change path" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.11.04-2_change path" />
+    <MESSAGE value="20.11.09-1_EDIT Genetic_Algorithm.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.11.09-1_EDIT Genetic_Algorithm.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1333" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604492894374">
@@ -254,39 +231,39 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="862" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1604497360774" />
-    <state x="1121" y="191" width="498" height="1093" key="FileChooserDialogImpl" timestamp="1604230908319">
+    <state x="1121" y="191" width="498" height="1093" key="FileChooserDialogImpl" timestamp="1605190774092">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-607" y="782" width="440" height="505" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603936584609" />
-    <state x="1121" y="191" width="498" height="1093" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604230908319" />
+    <state x="1121" y="191" width="498" height="1093" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605190774092" />
     <state x="1084" y="515" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1602859111311" />
     <state x="892" y="634" key="Github.ShareDialog" timestamp="1602859125472">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="892" y="634" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602859125472" />
-    <state width="2539" height="506" key="GridCell.Tab.0.bottom" timestamp="1604919926954">
+    <state width="2539" height="377" key="GridCell.Tab.0.bottom" timestamp="1605196427677">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="2539" height="507" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604412438970" />
+    <state width="2539" height="377" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196427677" />
     <state width="2539" height="506" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604919926954" />
-    <state width="2539" height="506" key="GridCell.Tab.0.center" timestamp="1604919926954">
+    <state width="2539" height="377" key="GridCell.Tab.0.center" timestamp="1605196427677">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="2539" height="507" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604412438970" />
+    <state width="2539" height="377" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196427677" />
     <state width="2539" height="506" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604919926954" />
-    <state width="2539" height="506" key="GridCell.Tab.0.left" timestamp="1604919926954">
+    <state width="2539" height="377" key="GridCell.Tab.0.left" timestamp="1605196427677">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="2539" height="507" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604412438970" />
+    <state width="2539" height="377" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196427677" />
     <state width="2539" height="506" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604919926954" />
-    <state width="2539" height="506" key="GridCell.Tab.0.right" timestamp="1604919926954">
+    <state width="2539" height="377" key="GridCell.Tab.0.right" timestamp="1605196427677">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="2539" height="507" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604412438970" />
+    <state width="2539" height="377" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196427677" />
     <state width="2539" height="506" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604919926954" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1604919756961">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -304,16 +281,16 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604919756961" />
-    <state x="782" y="345" width="914" height="707" key="SettingsEditor" timestamp="1604496996173">
+    <state x="414" y="370" width="914" height="707" key="SettingsEditor" timestamp="1605190939089">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1023" y="500" width="998" height="915" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603941228565" />
-    <state x="414" y="370" width="914" height="707" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1604411242916" />
+    <state x="414" y="370" width="914" height="707" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605190939089" />
     <state x="782" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604496996173" />
-    <state x="1178" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604492881474">
+    <state x="1178" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604919982170">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1178" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604492881474" />
+    <state x="1178" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604919982170" />
     <state x="414" y="336" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602858933974">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
