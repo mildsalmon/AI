@@ -14,9 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eac0a04-bb86-48d3-ac2f-11da56aa1f90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensor_2.0/Linear_Regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_2.0/Logistic_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor_2.0/Multi_Linear_Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BMI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor_2.0/XOR.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +46,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Automatic" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.05_Logistic_regression">
-    <configuration name="03_Linear_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.03_Iris_Multi_Classfication">
+    <configuration name="02_Pima_Indian" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/deeplearning/deeplearning_class/py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/deeplearning/run_project/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/deeplearning/deeplearning_class/py/03_Linear_Regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/deeplearning/run_project/py/02_Pima_Indian.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_Multi-Linear-Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_Iris_Multi_Classfication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/deeplearning/deeplearning_class/py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/deeplearning/run_project/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/deeplearning/deeplearning_class/py/04_Multi-Linear-Regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/deeplearning/run_project/py/03_Iris_Multi_Classfication.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_Logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BMI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0/deeplearning/deeplearning_class/py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/deeplearning/deeplearning_class/py/05_Logistic_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BMI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="XOR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/Logistic_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/XOR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Multi_Linear_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gradient_descent_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor_2.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor_2.0/Multi_Linear_Regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradient_descent_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05_Logistic_regression" />
-        <item itemvalue="Python.04_Multi-Linear-Regression" />
-        <item itemvalue="Python.03_Linear_Regression" />
-        <item itemvalue="Python.Logistic_regression" />
-        <item itemvalue="Python.Multi_Linear_Regression" />
+        <item itemvalue="Python.03_Iris_Multi_Classfication" />
+        <item itemvalue="Python.02_Pima_Indian" />
+        <item itemvalue="Python.XOR" />
+        <item itemvalue="Python.gradient_descent_method" />
+        <item itemvalue="Python.BMI" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605370449158</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20.11.15-1 ADD 모두의 딥러닝 4, 5">
+      <created>1605453617888</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605453617888</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +242,8 @@
     <MESSAGE value="20.11.09-1_EDIT Genetic_Algorithm.py" />
     <MESSAGE value="20.11.13-1_start 모두의 딥러닝" />
     <MESSAGE value="20.11.14-1 ADD 모두의 딥러닝 3장" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.11.14-1 ADD 모두의 딥러닝 3장" />
+    <MESSAGE value="20.11.15-1 ADD 모두의 딥러닝 4, 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.11.15-1 ADD 모두의 딥러닝 4, 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1333" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604492894374">
@@ -247,40 +254,41 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="862" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1604497360774" />
-    <state x="1121" y="191" width="498" height="1093" key="FileChooserDialogImpl" timestamp="1605243438783">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="542" y="149" width="331" height="531" key="FileChooserDialogImpl" timestamp="1605670998761">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="542" y="149" width="331" height="531" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605670998761" />
     <state x="-607" y="782" width="440" height="505" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603936584609" />
     <state x="1121" y="191" width="498" height="1093" key="FileChooserDialogImpl/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605243438783" />
-    <state x="1084" y="515" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1602859111311" />
+    <state x="1084" y="515" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605516953919" />
     <state x="892" y="634" key="Github.ShareDialog" timestamp="1602859125472">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="892" y="634" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602859125472" />
-    <state width="1258" height="242" key="GridCell.Tab.0.bottom" timestamp="1605444750393">
+    <state width="2539" height="351" key="GridCell.Tab.0.bottom" timestamp="1605621756010">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="2539" height="377" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196427677" />
-    <state width="1258" height="242" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605444750393" />
-    <state width="1258" height="242" key="GridCell.Tab.0.center" timestamp="1605444750393">
+    <state width="2539" height="351" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605621756010" />
+    <state width="2539" height="243" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605529381085" />
+    <state width="2539" height="351" key="GridCell.Tab.0.center" timestamp="1605621756010">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="2539" height="377" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196427677" />
-    <state width="1258" height="242" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605444750393" />
-    <state width="1258" height="242" key="GridCell.Tab.0.left" timestamp="1605444750393">
+    <state width="2539" height="351" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605621756010" />
+    <state width="2539" height="243" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605529381085" />
+    <state width="2539" height="351" key="GridCell.Tab.0.left" timestamp="1605621756010">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="2539" height="377" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196427677" />
-    <state width="1258" height="242" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605444750393" />
-    <state width="1258" height="242" key="GridCell.Tab.0.right" timestamp="1605444750393">
+    <state width="2539" height="351" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605621756010" />
+    <state width="2539" height="243" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605529381085" />
+    <state width="2539" height="351" key="GridCell.Tab.0.right" timestamp="1605621756010">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1059" height="725" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603988453307" />
-    <state width="2539" height="377" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196427677" />
-    <state width="1258" height="242" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605444750393" />
+    <state width="2539" height="351" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605621756010" />
+    <state width="2539" height="243" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605529381085" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1605370462501">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -297,17 +305,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605370462501" />
-    <state x="566" y="345" width="914" height="707" key="SettingsEditor" timestamp="1605432657461">
+    <state x="414" y="370" width="914" height="707" key="SettingsEditor" timestamp="1605619159519">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1023" y="500" width="998" height="915" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@-1080.6.1080.1920" timestamp="1603941228565" />
-    <state x="414" y="370" width="914" height="707" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605190939089" />
+    <state x="414" y="370" width="914" height="707" key="SettingsEditor/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605619159519" />
     <state x="566" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605432657461" />
-    <state x="1178" y="433" key="Vcs.Push.Dialog.v2" timestamp="1605370453530">
+    <state x="1178" y="433" key="Vcs.Push.Dialog.v2" timestamp="1605453622710">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1178" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.6.1080.1920@0.0.2560.1400" timestamp="1605196498733" />
-    <state x="1178" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605370453530" />
+    <state x="1178" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605453622710" />
     <state x="414" y="336" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602858933974">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
