@@ -36,14 +36,14 @@ def train_weights(X, y, l_rate, n_epoch):
     return weights
 
 # AND 연산 학습 데이터셋, 샘플과 레이블이다
-X = [[0, 0], [0, 1], [1, 0], [1, 1]]
-y = [0, 0, 0, 1]
+X = [[170, 80], [175, 76], [180, 70], [160, 55], [163, 43], [165, 48]]
+y = [0, 0, 0, 1, 1, 1]
 # 가중치와 바이어스 초기값
 weights = [0.0, 0.0]
 bias = 0.0
 # 학습률
 l_rate = 0.1
 # 에포크 횟수
-n_epoch = 5
+n_epoch = 50
 weights = train_weights(X, y, l_rate, n_epoch)
 print(weights, bias)
